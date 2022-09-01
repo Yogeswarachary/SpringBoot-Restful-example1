@@ -1,0 +1,3 @@
+create table user(long id Primary not null, string username length(50) not null, string firstname length(50) not null, string lastname length(50) not null, string email length(50) not null, string role length(50) not null, string ssn length(50) not null);
+insert user(id, username, firstname, lastname, email, role, ssn) values (100, 'SivaKumar@growskill.com', 'Siva', 'Kumar', 'sivakumar@gmail.com', 'Tutor', 'ssn100');
+INSERT INTO User(id, username, firstname, lastname, email, role, ssn) values (101, 'Ganesh.Ganapulet@growskill.com', 'Ganesh', 'Ganapulet','ganeshganapuleti@gmail.com', 'Tutor', 'ssn101');
